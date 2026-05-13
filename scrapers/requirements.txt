@@ -1,0 +1,7 @@
+# Promethean Epidemio — Dependencies pour scrapers Python
+# Utilisées par GitHub Actions
+
+requests==2.31.0
+feedparser==6.0.10
+supabase==2.0.0
+python-dateutil==2.8.2
