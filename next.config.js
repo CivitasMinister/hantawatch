@@ -1,11 +1,20 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  poweredByHeader: false,
-  compress: true,
+  typescript: {
+    ignoreBuildErrors: false,
+  },
+  eslint: {
+    ignoreDuringBuilds: false,
+  },
+  images: {
+    domains: ['supabase.com'],
+    formats: ['image/webp', 'image/avif'],
+  },
+  swcMinify: true,
   experimental: {
-    optimizePackageImports: ['lucide-react']
-  }
+    optimizePackageImports: ['lucide-react', 'recharts'],
+  },
 };
-
-export default nextConfig;
+ 
+module.exports = nextConfig;
+ 
