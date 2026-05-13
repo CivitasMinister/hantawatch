@@ -1,4 +1,4 @@
-# 🦠 Promethean Epidemio v1.0
+# 🦠 Promethean Epidemio
 
 **Surveillance épidémiologique scientifique en temps réel**
 
