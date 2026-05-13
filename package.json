@@ -2,20 +2,26 @@
   "name": "promethean-epidemio",
   "version": "2.0.0",
   "description": "Surveillance épidémiologique scientifique - Cluster MV Hondius (hantavirus)",
-  "keywords": ["epidemiology", "surveillance", "hantavirus", "nextjs", "supabase"],
+  "keywords": [
+    "epidemiology",
+    "surveillance",
+    "hantavirus",
+    "nextjs",
+    "supabase"
+  ],
   "author": "The Promethean Institute",
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "next lint --fix",
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "next": "15.1.3",
-    "react": "19.0.0",
-    "react-dom": "19.0.0",
+    "next": "14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "@supabase/supabase-js": "^2.39.0",
     "lucide-react": "^0.344.0",
     "recharts": "^2.10.4",
@@ -26,11 +32,11 @@
     "@types/react": "^18.2.52",
     "@types/react-dom": "^18.2.18",
     "eslint": "^8.56.0",
-    "eslint-config-next": "15.1.0",
+    "eslint-config-next": "14.2.5",
     "typescript": "^5.3.3"
   },
   "engines": {
-    "node": "20.x",
+    "node": ">=18.17.0",
     "npm": ">=8.0.0"
   }
 }
